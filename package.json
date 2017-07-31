@@ -1,0 +1,16 @@
+{
+  "name": "angularjs-webpack-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mateusz Skalniak",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-angularjs-annotate": "^0.8.0",
+    "html-loader": "^0.5.0",
+    "webpack": "^3.4.1"
+  },
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-ui-router": "^1.0.3"
+  }
+}
