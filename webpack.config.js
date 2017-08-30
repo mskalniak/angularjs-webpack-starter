@@ -1,15 +1,12 @@
 module.exports = {
-  entry: './src/app.js',
+  entry: './src/app/app.js',
   output: {
     filename: 'dist/dist.js'
   },
   module: {
-    loaders: [
-      {
-        test: /\.html$/,
-        loaders: ['html-loader']
-
-      }
+    rules: [
+      { test: /\.html$/, loaders: ['html-loader'] },
+      { test: /\.less$/, loaders: ['style-loader', 'css-loader', 'less-loader'] }
     ]
   },
   watch: true
